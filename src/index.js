@@ -15,5 +15,5 @@ ReactDOM.render(
   <Provider store={store}>
     <App API_KEY={YOUTUBE_API_KEY} searchYouTube={searchYouTube} />
   </Provider>,
-  document.getElementById("app")
+  document.getElementById('app')
 );
